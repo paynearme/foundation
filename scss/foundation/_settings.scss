@@ -40,11 +40,11 @@ $defaultFloat: left !default; // Change this to 'right' for right-to-left langua
 $defaultOpposite: right !default; // Change this to 'left' for right-to-left languages
 
 @if $textDirection == ltr {
-  $defaultFloat: left;
-  $defaultOpposite: right;
+  $defaultFloat: left !global;
+  $defaultOpposite: right !global;
 } @else {
-  $defaultFloat: right;
-  $defaultOpposite: left;
+  $defaultFloat: right !global;
+  $defaultOpposite: left !global;
 }
 
 // Button Settings
