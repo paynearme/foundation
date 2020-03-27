@@ -15,8 +15,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Foundation::VERSION
 
-  gem.add_dependency "compass", [">= 0.12.2"]
-  gem.add_dependency "sass", [">= 3.2.0"]
-  gem.add_dependency "modular-scale", [">= 1.0.6"]
+  #gem.add_dependency "compass", [">= 0.12.2"]
+  #gem.add_dependency "sass", [">= 3.2.0"]
+  #gem.add_dependency "modular-scale", [">= 1.0.6"]
   gem.add_dependency "rake"
 end
